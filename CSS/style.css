@@ -1,0 +1,541 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    background-image: url(../IMAGES/dots.png);
+    background-size: cover 50%;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: rgb(52, 52, 52);
+}
+/*home section*/
+.home {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../IMAGES/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.icons-home i {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    margin: 15px 5px;
+    cursor: grab;
+}
+
+.home h5 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
+}
+
+.home .home-content span {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+#light {
+    font-weight: 200;
+}
+/*about section*/
+.about h2 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 800;
+}
+
+#pp {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#pp2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+#cbutton {
+    background-color: black;
+    color: white;
+}
+
+#cbutton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#c2button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#c2button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.photo-about {
+    background-image: url(../IMAGES/dots.png);
+    background-size: cover 50%;
+    background-position: left;
+}
+/*services section*/
+
+ .icon-link i {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+ .services .inner:hover .icon-link {
+    background-color: black !important;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+.icon-link:hover{
+    background-color: black !important;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+.services h4 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(52, 52, 52);
+}
+/*work section*/
+.works img {
+    width: 100%;
+}
+
+.works .nav-link{
+    color: black;
+}
+.works .nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+.layyyer {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    width: 90%;
+
+}
+
+.layyyer h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 10px;
+
+
+}
+
+.por-photo:hover .layyyer {
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+}
+
+.layer-content span {
+    transition: all 0.5s ease-in-out;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.layer-content span:hover {
+    background-color: rgb(255, 255, 255) !important;
+    cursor: grab;
+}
+
+.layer-content span:hover i {
+    color: black;
+}
+
+.layer-content i {
+
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+    
+}
+/*clients section*/
+.clients img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(143, 101, 101);
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color: rgb(143, 101, 101);
+}
+
+/*numbers section*/
+.type::after {
+    content: "1050";
+    animation: both 3s;
+    animation-name: typing;
+    animation-timing-function: steps(20, end);
+    font-size: 20px;
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    5% {
+        content: "30";
+    }
+
+    10% {
+        content: "50";
+    }
+
+    15% {
+        content: "70";
+    }
+
+    20% {
+        content: "90";
+    }
+
+    25% {
+        content: "110";
+    }
+
+    30% {
+        content: "130";
+    }
+
+    35% {
+        content: "150";
+    }
+
+    40% {
+        content: "170";
+    }
+
+    45% {
+        content: "190";
+    }
+
+    50% {
+        content: "210";
+    }
+
+    55% {
+        content: "230";
+    }
+
+    60% {
+        content: "250";
+    }
+
+    20% {
+        content: "150";
+    }
+
+    30% {
+        content: "250";
+    }
+
+    40% {
+        content: "350";
+    }
+
+    50% {
+        content: "450";
+    }
+
+    60% {
+        content: "550";
+    }
+
+    70% {
+        content: "650";
+    }
+
+    80% {
+        content: "750";
+    }
+
+    90% {
+        content: "850";
+    }
+
+    100% {
+        content: "950";
+    }
+}
+
+.numbers {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color: rgb(52, 52, 52);
+    padding: 30px;
+    font-style: bold;
+}
+/*team section*/
+.layer {
+    opacity: 0;
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    width: 90%;
+}
+
+.card:hover .layer {
+    opacity: 0.9;
+    background-color: white;
+    transform: rotate(0deg);
+}
+
+.card:hover .layer {
+    opacity: 0.9;
+    background-color: white;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+
+}
+
+.card-photo:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-body h5 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.card-body p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.team-content i {
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.team-content span:hover {
+    background-color: white !important;
+    cursor: grab;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.team-content span:hover i {
+    color: black;
+}
+#sbutton {
+    background-color: black;
+    color: white;
+}
+
+#sbutton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+input:focus{
+    color: beige;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    h3 {
+        font-size: 32px;
+    }
+
+    .home h5 {
+        font-size: 40px;
+    }
+
+    .home .home-content span {
+        font-size: 48px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .services h4 {
+        font-size: 16px;
+    }
+
+    .card-body h5 {
+        font-size: 20px;
+    }
+
+    .card-body p {
+        font-size: 16px;
+    }
+
+    .team-content i {
+        font-size: 16px;
+    }
+
+    .numbers {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    h3 {
+        font-size: 28px;
+    }
+
+    .home h5 {
+        font-size: 36px;
+    }
+
+    .home .home-content span {
+        font-size: 42px;
+    }
+
+    .about h2 {
+        font-size: 20px;
+    }
+
+    .services h4 {
+        font-size: 14px;
+    }
+
+    .card-body h5 {
+        font-size: 18px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .team-content i {
+        font-size: 14px;
+    }
+
+    .numbers {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 24px;
+    }
+
+    .home h5 {
+        font-size: 32px;
+    }
+
+    .home .home-content span {
+        font-size: 36px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .services h4 {
+        font-size: 12px;
+    }
+
+    .card-body h5 {
+        font-size: 16px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+
+    .team-content i {
+        font-size: 12px;
+    }
+
+    .numbers {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .home h5 {
+        font-size: 28px;
+    }
+
+    .home .home-content span {
+        font-size: 32px;
+    }
+
+    .about h2 {
+        font-size: 16px;
+    }
+
+    .services h4 {
+        font-size: 10px;
+    }
+
+    .card-body h5 {
+        font-size: 14px;
+    }
+
+    .card-body p {
+        font-size: 10px;
+    }
+
+    .team-content i {
+        font-size: 10px;
+    }
+
+    .numbers {
+        font-size: 14px;
+    }
+}
